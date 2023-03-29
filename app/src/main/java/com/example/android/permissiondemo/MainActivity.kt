@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnCameraPermission: Button = findViewById(R.id.btnCameraPermission)
+        val btNCameraPermission: Button = findViewById(R.id.btnCameraPermission)
         btnCameraPermission.setOnClickListener {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M &&
                     shouldShowRequestPermissionRationale(Manifest.permission.CAMERA)) {
